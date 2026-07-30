@@ -168,6 +168,13 @@ namespace LINQ_2
             //          .Where(n => n % 2 == 0);
 
             #endregion
+
+            #region Question 20
+
+            //var result = ProductList.Take(3).Select(p => p.ProductName)
+            //    .Concat(CustomerList.Take(3).Select(c => c.CompanyName));
+
+            #endregion
         }
     }
 } 
