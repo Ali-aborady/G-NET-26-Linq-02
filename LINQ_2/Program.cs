@@ -10,7 +10,13 @@ namespace LINQ_2
     {
         static void Main(string[] args)
         {
+            #region Question 1
 
+            //var result = ProductList
+            //            .OrderByDescending(p => p.UnitPrice)
+            //            .Take(3);
+
+            #endregion
         }
     }
 }
