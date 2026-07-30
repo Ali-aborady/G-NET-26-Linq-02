@@ -72,6 +72,15 @@ namespace LINQ_2
             //        });
 
             #endregion
+
+            #region Question 8
+
+            //var result = ProductList
+            //    .GroupBy(p => p.Category)
+            //    .Where(g => g.Count() > 3)
+            //    .Select(g => g.Key);
+
+            #endregion
         }
     }
 }
