@@ -25,6 +25,13 @@ namespace LINQ_2
             //            .Take(5);
 
             #endregion
+
+            #region Question 3
+            //var result = ProductList
+            //            .OrderBy(p => p.UnitPrice)
+            //            .TakeWhile(p => p.UnitPrice < 25);
+
+            #endregion
         }
     }
 }
