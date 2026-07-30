@@ -93,6 +93,12 @@ namespace LINQ_2
             //                 TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
             //             };
             #endregion
+
+            #region Question 10
+
+            //var result = ProductList.Sum(p => p.UnitsInStock);
+
+            #endregion
         }
     }
 } 
