@@ -154,6 +154,13 @@ namespace LINQ_2
             //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
 
             #endregion
+
+            #region Question 18
+
+            //var result = Enumerable.Range(1, 10)
+            //           .Select(i => 7 * i);
+
+            #endregion
         }
     }
 } 
