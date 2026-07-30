@@ -161,6 +161,13 @@ namespace LINQ_2
             //           .Select(i => 7 * i);
 
             #endregion
+
+            #region Question 19
+
+            //var result = Enumerable.Range(1, 30)
+            //          .Where(n => n % 2 == 0);
+
+            #endregion
         }
     }
 } 
