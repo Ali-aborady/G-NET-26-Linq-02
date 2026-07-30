@@ -60,6 +60,18 @@ namespace LINQ_2
             //            });
 
             #endregion
+
+            #region Question 7
+
+            //var result = ProductList
+            //        .GroupBy(p => p.Category)
+            //        .Select(g => new
+            //        {
+            //            Category = g.Key,
+            //            Products = g.Select(p => p.ProductName)
+            //        });
+
+            #endregion
         }
     }
 }
