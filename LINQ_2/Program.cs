@@ -106,6 +106,14 @@ namespace LINQ_2
             //var max = ProductList.Max(p => p.UnitPrice);
 
             #endregion
+
+            #region Question 12
+
+            //var result = ProductList
+            //             .Select(p => p.Category)
+            //             .Distinct();    
+
+            #endregion
         }
     }
 } 
