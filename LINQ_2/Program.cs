@@ -81,6 +81,18 @@ namespace LINQ_2
             //    .Select(g => g.Key);
 
             #endregion
+
+            #region Question 9
+
+            //var result = from c in CustomerList
+            //             group c by c.Country into g
+            //             select new
+            //             {
+            //                 Country = g.Key,
+            //                 Count = g.Count(),
+            //                 TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //             };
+            #endregion
         }
     }
-}
+} 
