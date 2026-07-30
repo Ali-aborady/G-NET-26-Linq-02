@@ -175,6 +175,13 @@ namespace LINQ_2
             //    .Concat(CustomerList.Take(3).Select(c => c.CompanyName));
 
             #endregion
+
+            #region Question 21
+
+            var result = ProductList.Zip(CustomerList,
+                (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+
+            #endregion
         }
     }
 } 
