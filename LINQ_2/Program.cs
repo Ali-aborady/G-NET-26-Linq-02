@@ -17,6 +17,14 @@ namespace LINQ_2
             //            .Take(3);
 
             #endregion
+
+            #region Question 2
+
+            //var result = ProductList
+            //            .Skip(5)
+            //            .Take(5);
+
+            #endregion
         }
     }
 }
