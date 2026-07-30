@@ -99,6 +99,13 @@ namespace LINQ_2
             //var result = ProductList.Sum(p => p.UnitsInStock);
 
             #endregion
+
+            #region Question 11
+
+            //var min = ProductList.Min(p => p.UnitPrice);
+            //var max = ProductList.Max(p => p.UnitPrice);
+
+            #endregion
         }
     }
 } 
