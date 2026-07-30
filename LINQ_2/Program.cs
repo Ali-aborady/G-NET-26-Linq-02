@@ -32,6 +32,14 @@ namespace LINQ_2
             //            .TakeWhile(p => p.UnitPrice < 25);
 
             #endregion
+
+            #region Question 4
+
+            //var result = ProductList
+            //            .Where(p => p.Category == "Seafood")
+            //            .All(p => p.UnitsInStock > 0);
+
+            #endregion
         }
     }
 }
