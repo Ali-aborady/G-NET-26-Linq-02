@@ -40,6 +40,14 @@ namespace LINQ_2
             //            .All(p => p.UnitsInStock > 0);
 
             #endregion
+
+            #region Question 5
+
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //bool result = ids.Contains(9);
+
+            #endregion
         }
     }
 }
