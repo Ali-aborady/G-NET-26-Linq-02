@@ -148,6 +148,12 @@ namespace LINQ_2
             //var result = ProductList.First(p => p.UnitPrice > 50);
 
             #endregion
+
+            #region Question 17
+
+            //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+
+            #endregion
         }
     }
 } 
