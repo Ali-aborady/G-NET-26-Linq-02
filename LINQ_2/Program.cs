@@ -48,6 +48,18 @@ namespace LINQ_2
             //bool result = ids.Contains(9);
 
             #endregion
+
+            #region Question 6
+
+            //var result = ProductList
+            //            .GroupBy(p => p.Category)
+            //            .Select(g => new
+            //            {
+            //                Category = g.Key,
+            //                Count = g.Count()
+            //            });
+
+            #endregion
         }
     }
 }
